@@ -37,7 +37,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$80.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
                 <span className='block text-[#90A3BF]'><s>$100.00</s></span>
             </p>
           </p>
@@ -64,7 +65,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$96.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
             </p>
           </p>
 
@@ -104,7 +106,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$72.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
                 <span><s>80.00</s></span>
             </p>
           </p>
@@ -137,7 +140,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$80.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
             </p>
           </p>
 
@@ -163,7 +167,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$80.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
             </p>
           </p>
 
@@ -205,7 +210,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$76.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
                 <span><s>$100.00</s></span>
             </p>
           </p>
@@ -244,7 +250,8 @@ export default function Body(){
             </span>
             <p>
                 <span className='font-bold text-[20px]'>$74.00/<label className='text-[#90A3BF]'>day</label></span>
-                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button>
+                <Link href='./Payment'>
+                <button className='mt-[20px] ml-[50px] bg-[#3563E9] w-[116px] h-[44px] rounded-[4px] text-[#ececee]'> Rent Now</button></Link>
             </p>
           </p>
 

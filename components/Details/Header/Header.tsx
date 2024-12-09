@@ -19,7 +19,7 @@ export default function Header3(){
      <span className='text-[14px] text-[#596780]'> 440+ Reviewer </span>  
      
 </p>
-     <p className='text-[20px] text-[#596780]'><span className='block'>NISMO has become the embodiment of Nissan's</span><span className='block'> outstanding performance, inspired by the most</span> unforgiving proving ground, the "race track".
+     <p className='text-[20px] text-[#596780]'><span className='block'>NISMO has become the embodiment of Nissan&apos;s</span><span className='block'> outstanding performance, inspired by the most</span> unforgiving proving ground, the &quot;race track&quot;.
      
      </p>
 
