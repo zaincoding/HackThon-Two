@@ -10,7 +10,7 @@ export default function Header(){
 <div className='h-[124px]  leading-[100px] border-[1px] relative'>
 
 
-<p className='md:ml-[1280px]  gap-5 mt-[40px] absolute hidden md:flex'>
+<p className='md:ml-[1080px]  gap-5 mt-[40px] absolute hidden md:flex'>
         <Image src='/images/icons/heart.PNG' alt='#' width={25} height={25} />
         <Image src='/images/icons/bell.PNG' alt='#' width={30} height={30} />
         <Image src='/images/icons/setting.PNG' alt='#' width={25} height={25} />
@@ -29,15 +29,15 @@ export default function Header(){
 
 <div className='bg-[#F6F7F9]'>
       <div className=' md:flex  gap-[100px] ml-[60px] my-[20px] hidden'>
-        <Image src='/images/banners/Ads 1.PNG' alt='asd1' width={640} height={200}/>
-        <Image src='/images/banners/Ads 2.PNG' alt='asd1' width={640} height={200}/>
+        <Image src='/images/banners/Ads 1.png' alt='asd1' width={640} height={200}/>
+        <Image src='/images/banners/Ads 2.png' alt='asd1' width={640} height={200}/>
 
 
 
       </div>
 <div className='md:ml-[100px] md:flex ml-[50px]'>
       <p>
-      <Image className='md:hidden mt-[10px]' src='/images/banners/Ads 1.PNG' alt='asd1' width={400} height={100}/>
+      <Image className='md:hidden mt-[10px]' src='/images/banners/Ads 1.png' alt='asd1' width={400} height={100}/>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Pick-Up</label><br/>
@@ -60,7 +60,7 @@ export default function Header(){
 
         <p className=' md:ml-[350px]'>
 
-        <Image className='md:hidden' src='/images/banners/Ads 2.PNG' alt='asd1' width={400} height={200}/>
+        <Image className='md:hidden' src='/images/banners/Ads 2.png' alt='asd1' width={400} height={200}/>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Drop-Off</label><br/>
