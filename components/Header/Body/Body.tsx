@@ -15,7 +15,7 @@ export default function Body(){
             
         </div>
         <div  className='md:flex md:gap-[65px] md:ml-[60px] ml-[50px]'>
-            <Image src="/images/CarCat1/Catalog 1.PNG" alt="Catalog" width={304} height={100}/>
+            <Image src="/images/CarCat1/Catalog 1.png" alt="Catalog" width={304} height={100}/>
           
           <p className='w-[304px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>Nissan GT-R
@@ -25,7 +25,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Sport</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/car.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/car.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>80L</label>
@@ -54,7 +54,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Sport</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/Car1.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>80L</label>
@@ -84,7 +84,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Sport</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/car.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/car.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>80L</label>
@@ -123,7 +123,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>SUV</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car1.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>70L</label>
@@ -158,7 +158,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>SUV</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car2.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car2.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>80L</label>
@@ -186,7 +186,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>SUV</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car3.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/Car3.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>74L</label>
@@ -216,7 +216,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Sport</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/car4.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat2/car4.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>80L</label>
@@ -255,7 +255,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Hatchback</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>70L</label>
@@ -284,7 +284,7 @@ export default function Body(){
 
 
 
-          <Image src="/images/CarCat1/CarCat3/Car2.PNG" alt="Catalog" width={304} height={100}/>
+          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={304} height={100}/>
 
 
 
@@ -296,7 +296,7 @@ export default function Body(){
             </h1>
             <span className='text-[#90A3BF]'>Hatchback</span>
             <Link href="./Category">
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.PNG" alt="Catalog" width={304} height={100}/></Link>
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>90L</label>
@@ -316,7 +316,7 @@ export default function Body(){
           </p>
 
 
-          <Image src="/images/CarCat1/CarCat3/Car2.PNG" alt="Catalog" width={304} height={100}/>
+          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={304} height={100}/>
 
 
 
