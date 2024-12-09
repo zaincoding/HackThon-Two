@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import Body from '@/components/Category/Header/Body2/Body2'
 
