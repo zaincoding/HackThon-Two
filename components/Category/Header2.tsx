@@ -11,7 +11,7 @@ export default function Header2(){
 <div className='h-[124px]  leading-[100px] border-[1px] relative'>
 
 
-<p className='md:ml-[1280px]  gap-5 mt-[40px] absolute hidden md:flex'>
+<p className='md:ml-[1080px]  gap-5 mt-[40px] absolute hidden md:flex'>
         <Image src='/images/icons/heart.PNG' alt='#' width={25} height={25} />
         <Image src='/images/icons/bell.PNG' alt='#' width={30} height={30} />
         <Image src='/images/icons/setting.PNG' alt='#' width={25} height={25} />

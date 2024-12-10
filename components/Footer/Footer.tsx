@@ -14,7 +14,7 @@ export default function Footer(){
 
 
 
-    <div className="md:ml-[700px] md:flex md:gap-[300px] md:absolute md:mt-[-90px] ml-[60px]">
+    <div className="md:ml-[450px] md:flex md:gap-[150px] md:absolute md:mt-[-90px] ml-[60px]">
     <div><span className="text-[20px] text-[#1A202C] font-semibold">About</span>
     <span className="text-[#13131399] font-medium">  <p>How it works</p>
           <p>Featured</p>
