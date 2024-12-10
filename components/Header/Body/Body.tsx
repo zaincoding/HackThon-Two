@@ -11,13 +11,13 @@ export default function Body(){
         <div className='bg-[#F6F7F9]'>
             <div className="ml-[80px] mt-[50px] flex relative">
             <h1 className='text-[16px] font-semibold text-[#90A3BF]'>Popular Car</h1>
-            <Link className='md:ml-[1200px] ml-[400px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
+            <Link className='md:ml-[1050px] ml-[400px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
             
         </div>
         <div  className='md:flex md:gap-[65px] md:ml-[60px] ml-[50px]'>
             <Image src="/images/CarCat1/Catalog 1.png" alt="Catalog" width={275} height={100}/>
           
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>Nissan GT-R
           <Image className='mx-[100px]' src='/images/icons/GrayHeart.PNG' alt="Heart" width={25} height={25} />
            
@@ -47,7 +47,7 @@ export default function Body(){
 
 
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>Rolls Royce
             <Image className='mx-[100px]' src='/images/icons/RedHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -77,7 +77,7 @@ export default function Body(){
 
 
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>Nissan GT-R
             <Image className='mx-[100px]' src='/images/icons/GrayHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -116,7 +116,7 @@ export default function Body(){
 <div  className='md:flex md:gap-[65px] md:ml-[60px] ml-[50px] mt-[30px] '>
 
 
-<p className='w-[304px] h-[388px]'>
+<p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>All New Rush
             <Image className='mx-[100px]' src='/images/icons/GrayHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -151,7 +151,7 @@ export default function Body(){
    
           
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>CR-V
             <Image className='mx-[100px]' src='/images/icons/RedHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -179,7 +179,7 @@ export default function Body(){
 
 
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>All New Terios
             <Image className='mx-[100px]' src='/images/icons/GrayHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -209,7 +209,7 @@ export default function Body(){
 
 
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>CR-V
             <Image className='mx-[100px]' src='/images/icons/RedHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -248,7 +248,7 @@ export default function Body(){
 
 
 
-        <p className='w-[304px] h-[388px]'>
+        <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>MGZX Exclusice
             <Image className='mx-[100px]' src='/images/icons/RedHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -284,12 +284,12 @@ export default function Body(){
 
 
 
-          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={304} height={100}/>
+          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={275} height={100}/>
 
 
 
 
-          <p className='w-[304px] h-[388px]'>
+          <p className='w-[275px] h-[388px]'>
             <h1 className='font-bold text-[20px] text-[#1A202C] flex whitespace-nowrap'>MGZX Excite
             <Image className='mx-[100px]' src='/images/icons/RedHeart.PNG' alt="Heart" width={25} height={25} />
 
@@ -316,7 +316,7 @@ export default function Body(){
           </p>
 
 
-          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={304} height={100}/>
+          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={275} height={100}/>
 
 
 
