@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 import Image from 'next/image'
 
 
@@ -225,7 +225,8 @@ export default function Payment(){
             </div>
             </div>
 
-           <button className='bg-[#3563E9] w-[100px] h-[50px] rounded-[10px] text-white mt-[50px]'>Rent Now</button>
+           <button className='bg-[#3563E9] w-[100px] h-[50px] rounded-[10px] text-white mt-[50px]'><Link href='./'>
+           Rent Now</Link></button>
             </div>
 
 

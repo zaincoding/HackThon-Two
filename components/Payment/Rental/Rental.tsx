@@ -38,10 +38,10 @@ export default function Rental(){
 
 
      <div className='flex bg-[#eef0f3] relative rounded-[10px]'>
-      <Link href='#'>
+      
      <p className='mt-[50px] text-[22px] text-[#90A3BF] absolute leading-[0px]'>Apply promo code</p>
-     </Link>
-     <p className='ml-auto mr-0 text-[20px] font-bold mt-[30px]'>Apply now</p>
+     
+     <p className='ml-auto mr-0 text-[20px] font-bold mt-[30px]'><Link href='#'>Apply now</Link></p>
      </div>
 
     </div>
