@@ -149,7 +149,7 @@ export default function Payment(){
             <div className="flex items-center gap-[10px] mt-[10px]">
             <input type='radio' id='name' placeholder="Your name"/>
             <p className="text-[22px] font-bold">Credit Card</p>
-            <Image className='ml-auto mr-0' src='/images/payment/visa.png' alt='visa' width={100} height={100} />
+            <Image className='ml-auto mr-0' src='/images/payment/visa.PNG' alt='visa' width={100} height={100} />
             </div>
             </div>
 
@@ -186,7 +186,7 @@ export default function Payment(){
             <div className="flex items-center gap-[10px] mt-[10px]">
             <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
             <p className="text-[22px] font-bold">Paypal</p>
-            <Image className='ml-auto mr-0' src='/images/payment/paypal.png' alt='visa' width={100} height={100} />
+            <Image className='ml-auto mr-0' src='/images/payment/paypal.PNG' alt='visa' width={100} height={100} />
             </div>
             </div>
 
@@ -195,7 +195,7 @@ export default function Payment(){
             <div className="flex items-center gap-[10px] mt-[10px]">
             <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
             <p className="text-[22px] font-bold">Bitcoin</p>
-            <Image className='ml-auto mr-0' src='/images/payment/bitcoin.png' alt='visa' width={100} height={100} />
+            <Image className='ml-auto mr-0' src='/images/payment/bitcoin.PNG' alt='visa' width={100} height={100} />
             </div>
             </div>
 
@@ -230,7 +230,7 @@ export default function Payment(){
 
 
 
-            <Image className='ml-[50px]' src='/images/payment/security.png' alt='visa' width={100} height={100} />
+            <Image className='ml-[50px]' src='/images/payment/security.PNG' alt='visa' width={100} height={100} />
             <div className="my-[100px] ml-[80px] ">
             <p className="text-[22px] font-bold">All your data are safe</p>
             <p className="text-[#90A3BF] flex">We are using the most advanced security to provide you the best experience ever.

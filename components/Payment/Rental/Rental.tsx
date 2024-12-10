@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Rental(){
@@ -20,7 +21,7 @@ export default function Rental(){
      <p className='ml-[300px] whitespace-nowrap text-[22px] font-bold'> Nissan GT-R</p>
 
      <p className='flex'>
-     <Image className='ml-[300px]  ' src='/images/icons/stars.png' alt='visa' width={100} height={100} />
+     <Image className='ml-[300px]  ' src='/images/icons/stars.PNG' alt='visa' width={100} height={100} />
      <span> 440+Reviewer</span></p>
      </div>
 
@@ -37,7 +38,9 @@ export default function Rental(){
 
 
      <div className='flex bg-[#eef0f3] relative rounded-[10px]'>
+      <Link href='#'>
      <p className='mt-[50px] text-[22px] text-[#90A3BF] absolute leading-[0px]'>Apply promo code</p>
+     </Link>
      <p className='ml-auto mr-0 text-[20px] font-bold mt-[30px]'>Apply now</p>
      </div>
 
