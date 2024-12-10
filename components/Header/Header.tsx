@@ -29,8 +29,8 @@ export default function Header(){
 
 <div className='bg-[#F6F7F9]'>
       <div className=' md:flex  gap-[100px] ml-[60px] my-[20px] hidden'>
-        <Image src='/images/banners/Ads 1.png' alt='asd1' width={500} height={200}/>
-        <Image src='/images/banners/Ads 2.png' alt='asd1' width={500} height={200}/>
+        <Image src='/images/banners/Ads 1.png' alt='asd1' width={600} height={200}/>
+        <Image src='/images/banners/Ads 2.png' alt='asd1' width={600} height={200}/>
 
 
 
