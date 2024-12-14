@@ -18,12 +18,13 @@ export default function Payment(){
             
             <div className="mt-[50px] ">
             <p className="text-[22px] font-bold">Name</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Your name"/>
+            <div className="md:flex items-center md:gap-[50px] md:mt-[10px] leading-[50px]">
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Your name"/>
+            
 
           <div>
-            <p className="text-[22px] font-bold">Phone Number</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="Phone number"/>
+            <p className="text-[22px] font-bold mt-[50px]">Phone Number</p>
+            <input className=" md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="Phone number"/>
             </div>
             </div>
             </div>
@@ -31,12 +32,12 @@ export default function Payment(){
 
             <div className="mt-[50px] ">
             <p className="text-[22px] font-bold">Address</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Address"/>
+            <div className="md:flex items-center gap-[50px] md:mt-[10px] leading-[50px]">
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Address"/>
 
           <div>
-            <p className="text-[22px] font-bold">Town/ City</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="
+            <p className="text-[22px] font-bold mt-[50px]">Town/ City</p>
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="
             Town or city"/>
             </div>
             </div>
@@ -65,7 +66,7 @@ export default function Payment(){
 
             <div className="mt-[10px] ml-[100px] ">
             <p className="text-[22px] font-bold">Location</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
+            <div className=" md:flex items-center gap-[50px] mt-[10px]">
            
              
              <select>
@@ -81,13 +82,13 @@ export default function Payment(){
 
           <div>
             <p className="text-[22px] font-bold">Date</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Date' id='name' placeholder="
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Date' id='name' placeholder="
             Select your date"/>
             </div>
             </div>
             <div>
             <p className="text-[22px] font-bold">Time</p>
-            <input className="w-[266px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Time' id='name' placeholder="
+            <input className="md:w-[266px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Time' id='name' placeholder="
             Select your time"/>
             </div>
             </div>
@@ -108,7 +109,7 @@ export default function Payment(){
 
             <div className="mt-[10px] ml-[100px] ">
             <p className="text-[22px] font-bold">Location</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
+            <div className="md:flex items-center gap-[50px] mt-[10px]">
            
              
              <select>
@@ -124,13 +125,13 @@ export default function Payment(){
 
           <div>
             <p className="text-[22px] font-bold">Date</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Date' id='name' placeholder="
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Date' id='name' placeholder="
             Select your date"/>
             </div>
             </div>
             <div>
             <p className="text-[22px] font-bold">Time</p>
-            <input className="w-[266px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Time' id='name' placeholder="
+            <input className="md:w-[266px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='Time' id='name' placeholder="
             Select your time"/>
             </div>
             </div>
@@ -156,12 +157,12 @@ export default function Payment(){
 
             <div className="mt-[50px] ">
             <p className="text-[22px] font-bold">Card Number</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Card Number"/>
+            <div className="md:flex items-center gap-[50px] mt-[10px]">
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Card Number"/>
 
           <div>
             <p className="text-[22px] font-bold">Expiration Date</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="DD/MM/YY"/>
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="DD/MM/YY"/>
             </div>
             </div>
             </div>
@@ -169,12 +170,12 @@ export default function Payment(){
 
             <div className="mt-[50px] ">
             <p className="text-[22px] font-bold">Card Holder</p>
-            <div className="flex items-center gap-[50px] mt-[10px]">
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Card Holder"/>
+            <div className="md:flex items-center gap-[50px] mt-[10px]">
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Card Holder"/>
 
           <div>
             <p className="text-[22px] font-bold">CVC</p>
-            <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="
+            <input className="md:w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="
             CVC"/>
             </div>
             </div>

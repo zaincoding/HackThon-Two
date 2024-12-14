@@ -12,7 +12,6 @@ export default function Header(){
 
 <div className='md:ml-[80px] md:flex ml-[50px]'>
       <p>
-      <Image className='md:hidden mt-[10px]' src='/images/banners/Ads 1.PNG' alt='asd1' width={400} height={100}/>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Pick-Up</label><br/>
@@ -34,9 +33,10 @@ export default function Header(){
 
         </p>
 
-        <p className=' md:ml-[350px] mt-[50px]'>
+        <Image  className='h-[33px] my-[60px] md:ml-[150px]' src='/images/icons/arrow-signs.PNG' alt='asd1' width={33} height={33}/>
 
-        <Image className='md:hidden' src='/images/banners/Ads 2.PNG' alt='asd1' width={400} height={200}/>
+
+        <p className=' md:ml-[200px] mt-[50px]'>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Drop-Off</label><br/>

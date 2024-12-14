@@ -43,13 +43,21 @@ export default function Footer(){
 
 
 
-<div className="relative mt-[100px] text-[12px] md:text-[16px]">
 
-    <p>©2022 MORENT. All rights reserved</p>
+<div className="flex gap-[100px] mt-[50px] md:hidden">
+    <p>Privacy & Policy</p>
+    <p>Terms & Condition</p>
+</div>
+
+
+
+<div className="relative md:mt-[100px] mt-[30px] text-[12px] ml-[12px]">
+
+    <p className="md:block grid justify-items-center">©2024 MORENT. All rights reserved</p>
 
 </div>
 
-<div className="absolute ml-auto right-0 flex md:gap-[100px] mt-[-20px] text-[12px] md:text-[16px]">
+<div className="absolute ml-auto right-0 md:flex md:gap-[100px] mt-[-20px] hidden">
     <p>Privacy & Policy</p>
     <p>Terms & Condition</p>
 </div>
