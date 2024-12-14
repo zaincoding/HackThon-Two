@@ -7,7 +7,7 @@ export default function Header(){
 
         <div>
 
-<div className='h-[124px]  leading-[100px] border-[1px] relative'>
+<div className='h-[124px] w-full leading-[100px] border-[1px] relative'>
 
 
 <p className='md:ml-[1080px]  gap-5 mt-[40px] absolute hidden md:flex'>
@@ -24,10 +24,10 @@ export default function Header(){
     </p>
 
 
-        <p className='relative  md:hidden'> <span className=' text-[44px] text-[#3563E9] font-bold'>MORENT</span>
-        <input className='h-[50px] w-[220px] ml-[15px] absolute mt-[20px] rounded-2xl border-[1px] ' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
-        <Image className='mx-[210px] my-[-75px] absolute' src='/images/icons/search.PNG' alt='search' height={20} width={20}/>
-        </p>
+    <p className='relative  md:hidden'> <span className=' text-[44px] text-[#3563E9] font-bold'>MORENT</span>
+    <input className='h-[50px]  ml-[-180px] absolute mt-[70px] rounded-full border-[1px] ' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
+    <Image className='mx-[10px] my-[-25px] absolute' src='/images/icons/search.PNG' alt='search' height={20} width={20}/>
+    </p>
 
     
 </div>
