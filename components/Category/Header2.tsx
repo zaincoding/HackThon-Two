@@ -8,7 +8,7 @@ export default function Header2(){
 
         <div>
 
-<div className='h-[124px] w-[520px] md:w-full leading-[100px] border-[1px] relative'>
+<div className='h-[124px] w-[530px] md:w-full leading-[100px] border-[1px] relative'>
 
 
 <p className='md:ml-[1080px]  gap-5 mt-[40px] absolute hidden md:flex'>
