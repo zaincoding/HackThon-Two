@@ -160,7 +160,7 @@ export default function Payment(){
             <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px]" type='text' id='name' placeholder="Card Number"/>
 
           <div>
-            <p className="text-[22px] font-bold">Expration Date</p>
+            <p className="text-[22px] font-bold">Expiration Date</p>
             <input className="w-[366px] h-[56px] bg-[#e6e3e3] rounded-[10px] ml-auto mr-0" type='text' id='name' placeholder="DD/MM/YY"/>
             </div>
             </div>
@@ -184,7 +184,7 @@ export default function Payment(){
 
             <div className="mt-[50px] ml-[10px] bg-[#f0ecec] h-[60px] rounded-[10px] leading-[60px]">
             <div className="flex items-center gap-[10px] mt-[10px]">
-            <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
+            <input className='w-[20px] h-[20px]' type='radio' id='paypal' name='paymentMethod'/>
             <p className="text-[22px] font-bold">Paypal</p>
             <Image className='ml-auto mr-0' src='/images/payment/paypal.PNG' alt='visa' width={100} height={100} />
             </div>
@@ -193,7 +193,7 @@ export default function Payment(){
 
             <div className="mt-[50px] ml-[10px] bg-[#f0ecec] h-[60px] rounded-[10px] leading-[60px]">
             <div className="flex items-center gap-[10px] mt-[10px]">
-            <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
+            <input className='w-[20px] h-[20px]' type='radio' id='bitcoi ' name='paymentMethod'/>
             <p className="text-[22px] font-bold">Bitcoin</p>
             <Image className='ml-auto mr-0' src='/images/payment/bitcoin.PNG' alt='visa' width={100} height={100} />
             </div>
@@ -213,7 +213,7 @@ export default function Payment(){
             <div className="mt-[50px] ml-[10px]">
             <div className="flex items-center gap-[10px] mt-[10px]">
             <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
-            <p className="text-[22px] font-bold">I agree with sending an Marketing and newsletter emails. No spam, promissed!</p>
+            <p className="text-[22px] font-bold">I agree with sending a Marketing and newsletter emails. No spam, promissed!</p>
             </div>
             </div>
 
@@ -221,7 +221,7 @@ export default function Payment(){
             <div className="mt-[50px] ml-[10px]">
             <div className="flex items-center gap-[10px] mt-[10px]">
             <input className='w-[20px] h-[20px]' type='radio' id='name' placeholder="Your name"/>
-            <p className="text-[22px] font-bold">I agree with our terms and conditions and privacy policy.</p>
+            <p className="text-[22px] font-bold">I agree with the terms and conditions and privacy policy.</p>
             </div>
             </div>
 
