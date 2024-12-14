@@ -45,7 +45,7 @@ export default function Header(){
       <p>
       <Image className='md:hidden mt-[10px]' src='/images/banners/Ads 1.png' alt='asd1' width={400} height={100}/>
 
-            <input type="radio" id="pic" name='pic'/>
+            <input type="radio" id="pic" name='pick'/>
             <label> Pick-Up</label><br/>
 
 <span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
@@ -70,7 +70,7 @@ export default function Header(){
 
         <Image className='md:hidden' src='/images/banners/Ads 2.png' alt='asd1' width={400} height={200}/>
 
-            <input type="radio" id="pic" name='pic'/>
+            <input type="radio" id="pic" name='drop'/>
             <label> Drop-Off</label><br/>
 
 

@@ -13,7 +13,7 @@ export default function Header(){
 <div className='md:ml-[80px] md:flex ml-[50px]'>
       <p>
 
-            <input type="radio" id="pic" name='pic'/>
+            <input type="radio" id="pic" name='pick'/>
             <label> Pick-Up</label><br/>
 
 <span className='flex gap-[120px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
@@ -39,7 +39,7 @@ export default function Header(){
 
         <p className=' md:ml-[150px] mt-[50px md:mt-[0px]'>
 
-            <input type="radio" id="pic" name='pic'/>
+            <input type="radio" id="pic" name='drop'/>
             <label> Drop-Off</label><br/>
 
 <span className='flex gap-[110px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
