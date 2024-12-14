@@ -1,4 +1,4 @@
-import Header2 from '@/components/Category/Header2'
+import Header2 from '@/components/Payment/Header'
 import Payment from '@/components/Payment/Payment'
 import Rental from '@/components/Payment/Rental/Rental'
 

@@ -1,4 +1,4 @@
-import Header2 from '@/components/Category/Header2'
+import Header2 from '@/components/Details/Header/Header2'
 import Header3 from '@/components/Details/Header/Header'
 
 export default function Details(){
