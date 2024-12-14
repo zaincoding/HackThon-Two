@@ -50,11 +50,12 @@ export default function Header(){
 
 <span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
             <select>
-            <option value='1'>Select your location</option>
-            <option value='1'>Tower</option>
-            <option value='2'>Defance</option>
-            <option value='3'>Clifton</option>
-            <option value='4'>Saddar</option>
+            <option value='1'>Select your city</option>
+            <option value='1'>Karachi</option>
+            <option value='2'>Lahore</option>
+            <option value='3'>Islamabad</option>
+            <option value='4'>Peshawar</option>
+            <option value='5'>Quetta</option>
 
             </select>
             <label className='block md:hidden mt-[20px]'>Date </label>
@@ -74,12 +75,14 @@ export default function Header(){
 
 
 <span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
+ 
             <select>
-            <option value='1'>Select your location</option>
-            <option value='1'>Tower</option>
-            <option value='2'>Defance</option>
-            <option value='3'>Clifton</option>
-            <option value='4'>Saddar</option>
+            <option value='1'>Select your city</option>
+            <option value='1'>Karachi</option>
+            <option value='2'>Lahore</option>
+            <option value='3'>Islamabad</option>
+            <option value='4'>Peshawar</option>
+            <option value='5'>Quetta</option>
 
             </select>
            <label className='block md:hidden mt-[20px]'>Date</label>

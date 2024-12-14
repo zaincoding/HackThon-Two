@@ -74,7 +74,9 @@ export default function Payment(){
             <option value='1'>Karachi</option>
             <option value='2'>Lahore</option>
             <option value='3'>Islamabad</option>
-            <option value='4'>Peshware</option>
+            <option value='4'>Peshawar</option>
+            <option value='4'>Quetta</option>
+
 
             </select>
             
@@ -117,7 +119,9 @@ export default function Payment(){
             <option value='1'>Karachi</option>
             <option value='2'>Lahore</option>
             <option value='3'>Islamabad</option>
-            <option value='4'>Peshware</option>
+            <option value='4'>Peshawar</option>
+            <option value='4'>Quetta</option>
+
 
             </select>
             
