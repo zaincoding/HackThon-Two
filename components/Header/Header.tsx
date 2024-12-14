@@ -25,7 +25,7 @@ export default function Header(){
 
 
     <p className='relative  md:hidden'> <span className='md:mx-[60px] text-[44px] text-[#3563E9] font-bold'>MORENT</span>
-    <input className='h-[50px] md:w-[400px] ml-[-220px] absolute mt-[70px] rounded-full border-[1px] ' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
+    <input className='h-[50px] md:w-[400px] ml-[-200px] absolute mt-[70px] rounded-full border-[1px] ' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
     <Image className='md:mx-[320px] md:ml-[100px] my-[-25px] absolute' src='/images/icons/search.PNG' alt='search' height={20} width={20}/>
     </p>
 

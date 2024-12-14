@@ -12,7 +12,7 @@ export default function PaymentPage(){
             <div>
                 <Header2/>
 
-            <div className='flex'>    
+            <div className='md:flex'>    
                 <Payment/>
                 <Rental/>
             </div>
