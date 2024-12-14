@@ -15,7 +15,7 @@ export default function Header3(){
       <Image src='/images/Details/View.png' alt="Detail image" width={640} height={200} />
       <h1 className='text-[32px] font-bold'>Nissan GT-R
     <p className='relative flex'>
-      <Image src='/images/icons/stars.png' alt="stars" width={130} height={20} />
+      <Image src='/images/icons/stars.PNG' alt="stars" width={130} height={20} />
      <span className='text-[14px] text-[#596780]'> 440+ Reviewer </span>  
      
 </p>
@@ -24,7 +24,7 @@ export default function Header3(){
      </p>
 
      <p className='text-[16px] my-[50px] gap-[80px] flex'>
-<span className='text-[#90A3BF] text-[14px]'>TypeCar</span> <span>Sport</span> <span className='text-[#90A3BF]'>Capacity</span> <span>2 Person</span>
+<span className='text-[#90A3BF] text-[14px]'>TypeCar</span> <span>Sport</span> <span className='text-[#90A3BF]'>Capacity</span> <span className='whitespace-nowrap'>2 Person</span>
 </p>
 
  <p className='text-[16px]  gap-[80px] flex'>
@@ -68,7 +68,7 @@ export default function Header3(){
 
     <p className='ml-[250px] mt-[-50px] text-[#90A3BF] flex'>
     CEO at Bukalapak
-    <Image className='ml-auto mr-0 ' src='/images/icons/stars.png' alt='profile' width={120} height={50} />
+    <Image className='ml-auto mr-0 ' src='/images/icons/stars.PNG' alt='profile' width={120} height={50} />
 
 </p>
 
@@ -92,7 +92,7 @@ export default function Header3(){
 
     <p className='ml-[250px] mt-[-40px] text-[#90A3BF] flex'>
     CEO at Amazon
-    <Image className='ml-auto mr-0 ' src='/images/icons/stars.png' alt='profile' width={120} height={50} />
+    <Image className='ml-auto mr-0 ' src='/images/icons/stars.PNG' alt='profile' width={120} height={50} />
 
 </p>
 

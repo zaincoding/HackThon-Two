@@ -11,7 +11,7 @@ export default function Body(){
         <div className='bg-[#F6F7F9]'>
             <div className="ml-[80px] mt-[50px] flex relative">
             <h1 className='text-[16px] font-semibold text-[#90A3BF]'>Popular Car</h1>
-            <Link className='md:ml-[1000px] ml-[400px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
+            <Link className='md:ml-[1095px] ml-[280px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
             
         </div>
         <div  className='md:flex md:gap-[65px] md:ml-[60px] ml-[50px]'>
@@ -197,7 +197,8 @@ export default function Body(){
 
             </h1>
             <span className='text-[#90A3BF]'>Hatchback</span>
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/>
+            <Link href="./Details">
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>70L</label>
@@ -226,7 +227,7 @@ export default function Body(){
 
 
 
-          <Image src="/images/CarCat1/CarCat3/Car2.PNG" alt="Catalog" width={304} height={100}/>
+          <Image src="/images/CarCat1/CarCat3/Car2.png" alt="Catalog" width={304} height={100}/>
 
 
 
@@ -237,7 +238,8 @@ export default function Body(){
 
             </h1>
             <span className='text-[#90A3BF]'>Hatchback</span>
-            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/>
+            <Link href="./Details">
+            <Image className='mt-[60px]' src="/images/CarCat1/CarCat3/Car1.png" alt="Catalog" width={304} height={100}/></Link>
             <span className='flex  gap-2 mt-[50px]'>
             <Image  src="/images/icons/Liter.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>90L</label>

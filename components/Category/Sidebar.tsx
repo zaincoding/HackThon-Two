@@ -24,8 +24,9 @@ export default function Sidebar(){
 <span> Sedan(20)</span><br/>
 <input type="radio" id="radio"/>
 <span> Coupe(14)</span><br/>
-<input type="radio" id="radio"/>
-<span> Hatchback(14)</span><br/>
+
+<span className='whitespace-nowrap'><input type="radio" id="radio"/>
+ Hatchback(14)</span><br/>
 
 <p className="mt-[50px]">Capacity</p>
 <input type="radio" id="radio"/>

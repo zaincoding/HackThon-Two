@@ -7,7 +7,42 @@ export default function Footer(){
 
         <div className="bg-white ml-[-200px]">
 
-<div className="md:relative mt-[100px] ml-[60px]">
+<div className="md:relative mt-[100px] ml-[60px] hidden md:block">
+<span className='text-[44px] text-[#3563E9] font-bold  block'>MORENT</span>
+<p className="text-[#13131399]">Our vision is to provide convenience <span className="block">and help increase your sales business.</span></p>
+
+
+
+
+    <div className="md:ml-[700px] md:flex md:gap-[150px] md:absolute md:mt-[-90px] ml-[60px]">
+    <div><span className="text-[20px] text-[#1A202C] font-semibold">About</span>
+    <span className="text-[#13131399] font-medium">  <p>How it works</p>
+          <p>Featured</p>
+          <p>Partnership</p>
+          <p>Business Relation</p>
+          </span>
+    </div>
+    <div><span className="text-[20px] text-[#1A202C] font-semibold">Community</span>
+    <span className="text-[#13131399] font-medium">   <p>Events</p>
+          <p>Blog</p>
+          <p>Podcast</p>
+          <p>Invite a friend</p>
+          </span>
+    </div>
+    <div><span className="text-[20px] text-[#1A202C] font-semibold">Socials</span>
+       <span className="text-[#13131399] font-medium">  <p>Discord</p>
+         <p>Instagram</p>
+         <p>Twitter</p>
+         <p>Facebook</p>
+
+         </span>
+         </div>
+    </div>
+
+</div>
+
+
+<div className="md:relative mt-[100px] ml-[60px] justify-items-center md:hidden">
 <span className='text-[44px] text-[#3563E9] font-bold  block'>MORENT</span>
 <p className="text-[#13131399]">Our vision is to provide convenience <span className="block">and help increase your sales business.</span></p>
 
@@ -43,17 +78,16 @@ export default function Footer(){
 
 
 
-<div className="relative mt-[100px]">
+<div className="relative mt-[60px] text-[12px] md:text-[16px]">
 
     <p>©2022 MORENT. All rights reserved</p>
 
 </div>
 
-<div className="absolute ml-auto right-0 flex gap-[100px] mt-[-20px]">
+<div className="absolute ml-auto right-0 flex md:gap-[100px] mt-[-20px] text-[12px] md:text-[16px]">
     <p>Privacy & Policy</p>
-    <p>Terms & Condition</p>
+    <p className="ml-[20px] ">Terms & Condition</p>
 </div>
-
 
         </div>
     )

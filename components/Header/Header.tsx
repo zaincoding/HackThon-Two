@@ -19,7 +19,7 @@ export default function Header(){
 
 
     <p> <span className='md:mx-[60px] text-[44px] text-[#3563E9] font-bold'>MORENT</span>
-    <input className='h-[50px] w-[400px] rounded-full border-[1px]' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
+    <input className='h-[50px] md:w-[400px] rounded-full border-[1px] ' type="text" name="search"  placeholder=' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; search something there'/> 
     <Image className='md:mx-[320px] ml-[200px] my-[-60px]' src='/images/icons/search.PNG' alt='search' height={20} width={20}/>
     </p>
 
@@ -42,7 +42,7 @@ export default function Header(){
             <input type="radio" id="pic" name='pic'/>
             <label> Pick-Up</label><br/>
 
-<span className='flex gap-[130px]'><label>Location</label> <label>Date</label>  <label>Time</label></span><br/>
+<span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
             <select>
             <option value='1'>Select your location</option>
             <option value='1'>Tower</option>
@@ -51,21 +51,23 @@ export default function Header(){
             <option value='4'>Saddar</option>
 
             </select>
-            
+            <label className='block md:hidden mt-[20px]'>Date </label>
          <input type='date' placeholder='select your date'/>  
-
+            
+         <label className='block md:hidden  mt-[20px]'>Time</label>
          <input type='time' placeholder='select time'/>
 
         </p>
 
-        <p className=' md:ml-[350px]'>
+        <p className=' md:ml-[350px] mt-[50px]'>
 
         <Image className='md:hidden' src='/images/banners/Ads 2.png' alt='asd1' width={400} height={200}/>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Drop-Off</label><br/>
 
-<span className='flex gap-[130px]'><label>Location</label> <label>Date</label>  <label>Time</label></span><br/>
+
+<span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
             <select>
             <option value='1'>Select your location</option>
             <option value='1'>Tower</option>
@@ -74,9 +76,9 @@ export default function Header(){
             <option value='4'>Saddar</option>
 
             </select>
-            
+           <label className='block md:hidden mt-[20px]'>Date</label>
          <input type='date' placeholder='select your date'/>  
-
+           <label className='block md:hidden mt-[20px]'>Time</label>
          <input type='time' placeholder='select time'/>
 
         </p>

@@ -11,7 +11,7 @@ export default function Body(){
         <div className='bg-[#F6F7F9]'>
             <div className="ml-[80px] mt-[50px] flex relative">
             <h1 className='text-[16px] font-semibold text-[#90A3BF]'>Popular Car</h1>
-            <Link className='md:ml-[1050px] ml-[400px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
+            <Link className='md:ml-[1050px] ml-[280px] absolute font-semibold text-[#3563E9]' href="#">View All</Link>
             
         </div>
         <div  className='md:flex md:gap-[65px] md:ml-[60px] ml-[50px]'>
@@ -32,7 +32,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>4 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>4 People</label>
 
 
             </span>
@@ -61,7 +61,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>4 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>4 People</label>
 
 
             </span>
@@ -91,7 +91,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>4 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>4 People</label>
 
 
             </span>
@@ -130,7 +130,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>6 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>6 People</label>
 
 
             </span>
@@ -165,7 +165,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>6 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>6 People</label>
 
 
             </span>
@@ -193,7 +193,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>6 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>6 People</label>
 
 
             </span>
@@ -223,7 +223,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>6 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>6 People</label>
 
 
             </span>
@@ -262,7 +262,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>4 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>4 People</label>
 
 
             </span>
@@ -303,7 +303,7 @@ export default function Body(){
             <Image  src="/images/icons/Manual.PNG" alt="Catalog" width={35} height={35}/>
             <label className='leading-[40px] text-[#90A3BF]'>Manual</label>
             <Image  src="/images/icons/people.PNG" alt="Catalog" width={35} height={35}/>
-            <label  className='leading-[40px] text-[#90A3BF]'>4 People</label>
+            <label  className='leading-[40px] text-[#90A3BF] whitespace-nowrap'>4 People</label>
 
 
             </span>
