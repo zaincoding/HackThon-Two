@@ -16,7 +16,7 @@ export default function Header(){
             <input type="radio" id="pic" name='pic'/>
             <label> Pick-Up</label><br/>
 
-<span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
+<span className='flex gap-[120px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
             <select>
             <option value='1'>Select your location</option>
             <option value='1'>Tower</option>
@@ -33,15 +33,15 @@ export default function Header(){
 
         </p>
 
-        <Image  className='h-[33px] my-[60px] md:ml-[150px]' src='/images/icons/arrow-signs.PNG' alt='asd1' width={33} height={33}/>
+        <Image  className='h-[33px] my-[40px] md:ml-[140px]' src='/images/icons/arrow-signs.PNG' alt='asd1' width={33} height={33}/>
 
 
-        <p className=' md:ml-[200px] mt-[50px]'>
+        <p className=' md:ml-[150px] mt-[50px md:mt-[0px]'>
 
             <input type="radio" id="pic" name='pic'/>
             <label> Drop-Off</label><br/>
 
-<span className='flex gap-[130px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
+<span className='flex gap-[110px]'><label>Location</label> <label className='hidden md:block'>Date</label>  <label className='hidden md:block'>Time</label></span><br/>
             <select>
             <option value='1'>Select your location</option>
             <option value='1'>Tower</option>
