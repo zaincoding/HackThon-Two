@@ -143,7 +143,7 @@ export default function Payment(){
             <div className="my-[100px] ml-[80px] ">
             <p className="text-[22px] font-bold">Payment Method</p>
             <p className="text-[#90A3BF] flex">Please enter your payment method
-            <span className="ml-auto mr-0 whitespace-nowrape">Step 3 of 4</span>
+            <span className="ml-auto mr-0 whitespace-nowrap">Step 3 of 4</span>
             </p>
             
             <div className="mt-[50px] ml-[10px] ">
